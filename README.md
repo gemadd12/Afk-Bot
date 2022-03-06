@@ -20,18 +20,18 @@ const express = require('express')
 const app = express()
 
 app.get('/', function (req, res) {
-  res.send('Bot Running....')
+  res.send('Bot Joined')
 })
-
 app.listen(3000)
 ```
 
 * > Bot Chat/ Set TimeOut (Pastikan Bot ada Operator Permission)
 ```
+// Chat Code & Set Timeout
 Bot.on('spawn', () => {
-  Bot.chat("Hello")
-  Bot.chat("/kill @s")
-  Bot.chat("/setidletimeout 30")
+  Bot.chat("Hello") // Normal Chat
+  Bot.chat("/kill @s") // Kill untuk set TimeOut
+  Bot.chat("/setidletimeout 30") // TimeOut Code
 })
 ```
 Creator - [NiXE xD](https://www.youtube.com/channel/UCK9F2ptByYjY4UOqMn4UXNQ?sub_confirmation=1)
