@@ -11,7 +11,7 @@ const Bot = mineflayer.createBot({
   port: Server Port,
   username: "Nama Bot"
 })
-`
+```
 * > Code untuk Replit always Run walaupun [Repl.it](https://replit.com) ditutup
 
 ```
