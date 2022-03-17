@@ -1,5 +1,5 @@
 # Afk-Bot
-> Afk Bot akan membuatkan Aternos Server anda always Online/24 Jam
+> Afk Bot will make your Aternos Server run 24 Hours
 * > Part 1 : Buat Bot
 ```
 // Coding Bot
@@ -7,15 +7,15 @@
 const mineflayer = require('mineflayer')
 
 const Bot = mineflayer.createBot({
-  host: "Aternos ip",
+  host: "Aternos IP",
   port: Server Port,
-  username: "Nama Bot"
+  username: "Bot Name"
 })
 ```
-* > Code untuk Replit always Run walaupun [Repl.it](https://replit.com) ditutup
+* > Code to make your Project to always Running on [Repl.it](https://replit.com) after the Website Closed
 
 ```
-// 24 Jam Code
+// 24 Hours Running Code
 const express = require('express')
 const app = express()
 
@@ -25,12 +25,12 @@ app.get('/', function (req, res) {
 app.listen(3000)
 ```
 
-* > Bot Chat/ Set TimeOut (Pastikan Bot ada Operator Permission)
+* > Bot Chat/ Set TimeOut (Make sure the bot have Operator Permission)
 ```
 // Chat Code & Set Timeout
 Bot.on('spawn', () => {
   Bot.chat("Hello") // Normal Chat
-  Bot.chat("/kill @s") // Kill untuk set TimeOut
+  Bot.chat("/kill @s") // Kill to set TimeOut
   Bot.chat("/setidletimeout 30") // TimeOut Code
 })
 ```
