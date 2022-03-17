@@ -13,6 +13,7 @@ const Bot = mineflayer.createBot({
 })
 ```
 * > Code to make your Project to always Running on [Repl.it](https://replit.com) after the Website Closed and Deploy them on [UptimeRobot](https://uptimerobot.com)
+```
 // 24 Hours Running Code
 const express = require('express')
 const app = express()
