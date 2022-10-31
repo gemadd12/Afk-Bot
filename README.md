@@ -7,9 +7,9 @@
 const mineflayer = require('mineflayer')
 
 const Bot = mineflayer.createBot({
-  host: "Aternos IP",
-  port: Server Port,
-  username: "Bot Name"
+  host: "gemadd12.aternos.me",
+  port: 55292,
+  username: "sultan"
 })
 ```
 * > Code to make your Project to always Running on [Repl.it](https://replit.com) after the Website Closed and Deploy them on [UptimeRobot](https://uptimerobot.com)
